@@ -11,7 +11,6 @@ class FormHandler
 
     public function saveData(string $name, string $date): array
     {
-        // Simula o salvamento dos dados
         return ['name' => $name, 'date' => new \DateTime($date)];
     }
 }
